@@ -1,0 +1,48 @@
+#!/bin/sh -e
+
+### BEGIN INIT INFO
+# Provides:          frontol-du
+# Required-Start:    $remote_fs $syslog $local_fs $network
+# Required-Stop:     $remote_fs $syslog $local_fs $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: No description
+# Description:       No description
+### END INIT INFO
+
+. /lib/lsb/init-functions
+
+start() {
+    start-stop-daemon --start --quiet --chuid root:root --background --make-pidfile --pidfile /var/run/frontol-du.pid --chdir / --startas /bin/sh -- -c "exec /usr/bin/frontol-du" || true
+}
+
+stop() {
+    start-stop-daemon --stop --pidfile /var/run/frontol-du.pid || true
+    rm -f /var/run/frontol-du.pid
+}
+
+status() {
+    status_of_proc -p /var/run/frontol-du.pid "" frontol-du && exit 0 || exit $?
+}
+
+case "$1" in
+    start)
+        start
+    ;;
+    stop)
+        stop
+    ;;
+    restart|force-reload)
+        stop
+        start
+    ;;
+    status)
+        status
+    ;;
+    *)
+        echo "invalid usage" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,1 @@
+<div id="<?=$widget['id']?>" <?=(!empty($widget['style'])?'style="'.$widget['style'].'"':NULL)?>></div>

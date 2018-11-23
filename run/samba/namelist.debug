@@ -1,0 +1,136 @@
+Subnet 192.168.1.121
+----------------------
+	Name = WORKGROUP<1d>	Source = SELF_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Mon Jul  2 16:13:16 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __MSBROWSE__<01>	Source = SELF_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Mon Jul  2 16:13:11 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = WORKGROUP<1e>	Source = SELF_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:05 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = WORKGROUP<00>	Source = SELF_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:05 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<00>	Source = SELF_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:05 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<03>	Source = SELF_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:05 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<20>	Source = SELF_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:05 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __SAMBA__<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __SAMBA__<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+Subnet UNICAST_SUBNET
+----------------------
+	Name = WORKGROUP<1d>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Mon Jul  2 16:13:16 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __MSBROWSE__<01>	Source = PERMANENT_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Mon Jul  2 16:13:11 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = WORKGROUP<1e>	Source = PERMANENT_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = WORKGROUP<00>	Source = PERMANENT_NAME
+b_flags = 84	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<00>	Source = PERMANENT_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<03>	Source = PERMANENT_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = ILIN<20>	Source = PERMANENT_NAME
+b_flags = 6	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __SAMBA__<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __SAMBA__<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+Subnet REMOTE_BROADCAST_SUBNET
+----------------------
+	Name = __SAMBA__<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = __SAMBA__<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<20>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+
+	Name = *<00>	Source = PERMANENT_NAME
+b_flags = 4	death_time = PERMANENT	refresh_time = Thu Jun 28 02:00:01 2018
+
+		number of IPS = 1	192.168.1.121
+

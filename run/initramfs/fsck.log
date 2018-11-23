@@ -1,0 +1,14 @@
+Log of fsck -C -a -T -t ext4 /dev/sda1 
+Wed Jun 27 22:58:44 2018
+
+/dev/sda1: recovering journal
+/dev/sda1: Clearing orphaned inode 524989 (uid=0, gid=0, mode=0100666, size=0)
+/dev/sda1: Clearing orphaned inode 524507 (uid=108, gid=114, mode=0100600, size=0)
+/dev/sda1: Clearing orphaned inode 524305 (uid=108, gid=114, mode=0100600, size=0)
+/dev/sda1: Clearing orphaned inode 524301 (uid=108, gid=114, mode=0100600, size=0)
+/dev/sda1: Clearing orphaned inode 524298 (uid=108, gid=114, mode=0100600, size=0)
+/dev/sda1: Clearing orphaned inode 524297 (uid=108, gid=114, mode=0100600, size=0)
+/dev/sda1: clean, 137234/3219456 files, 2483100/12858880 blocks
+
+Wed Jun 27 22:58:49 2018
+----------------

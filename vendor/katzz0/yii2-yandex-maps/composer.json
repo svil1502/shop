@@ -1,0 +1,29 @@
+{
+    "name": "katzz0/yii2-yandex-maps",
+    "description": "Yii 2 yandex map module",
+    "keywords": ["yii", "yii2", "map", "yandex"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/katzz0/yii2-yandex-maps/issues?state=open",
+        "wiki": "https://github.com/katzz0/yii2-yandex-maps",
+        "source": "https://github.com/katzz0/yii2-yandex-maps"
+    },	
+    "authors": [
+        {
+            "name": "Maxim Palenov",
+            "email": "MAX_ELEK@mail.ru",
+            "homepage": "https://www.facebook.com/maxim.palenov"
+        }			
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "katzz0\\yandexmaps\\": ""
+        }
+    }
+}

@@ -1,0 +1,39 @@
+# Debian GNU/Linux konwert completion.
+# Copyright (c) 2003  Vitalij K. Lysoff <vij@ptc.spbu.ru>
+
+have konwert &&
+_konwert()
+{
+	local cur prev special i
+
+	COMPREPLY=()
+	cur=${COMP_WORDS[COMP_CWORD]}
+	prev=${COMP_WORDS[COMP_CWORD-1]}
+	filters=`ls /usr/share/konwert/filters/`
+	#filters="$COMP_CWORD "$filters
+
+	if [[ $COMP_CWORD > 1 ]]; then
+	    _filedir
+	    return 0
+	fi
+
+	case "$prev" in
+	    -o)
+ 		     _filedir
+		     return 0
+		     ;;
+	esac
+
+	if [[ "$cur" == -* ]]; then
+
+		COMPREPLY=( $( compgen -W '-o -O --help --version' -- $cur ) )
+	else
+
+		COMPREPLY=( $( compgen -W '$filters' -- $cur ) )
+
+	fi
+
+
+	return 0
+}
+[ -n "${have:-}" ] && complete -F _konwert $filenames konwert

@@ -1,0 +1,9 @@
+{
+    "port": "443",
+    "db_host": "localhost",
+    "db_port": "5432",
+    "db_name": "discount",
+    "db_user": "postgres",
+    "db_password": "postgres",
+    "log": "error"
+}
